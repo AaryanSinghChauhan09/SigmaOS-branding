@@ -3,12 +3,12 @@ name = "SigmaOS-branding"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "branding component"
+description = "A Rust library for holding and editing branding metadata: distribution name, version, tagline, copyright, support URL, and text logo lines. Branding can return these values and assemble a human-readable about summary."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
